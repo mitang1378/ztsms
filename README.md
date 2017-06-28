@@ -3,11 +3,16 @@
 这是一个为助通科技SMS平台接口写的一个yii2扩展程序，可以更方便的使用助通科技SMS短信接口
 
 **安装**
-使用composer安装
+
+使用`composer`安装
+
 ``` php
 	composer require mitang1378/ztsms
 ```
 **配置**
+
+配置common/config/main.php文件
+
 ``` php
 'components' => [
 ...
