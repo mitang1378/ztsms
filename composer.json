@@ -15,8 +15,7 @@
             "email": "83398365@qq.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "mitang1378\\ztsms\\": ""
