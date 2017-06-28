@@ -3,7 +3,8 @@
     "description": "zhutong SMS yii2 extension",
     "type": "yii2-extension",
     "require": {
-        "yiisoft/yii2": "2.0.7"
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "~2.0.10"
     },
     "require-dev": {
       "linslin/yii2-curl": "*"
