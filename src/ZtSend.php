@@ -9,16 +9,25 @@ class ZtSend{
 
   public $password;
 
+  public $sign;
+
+  public function __construct($username,$password,$sign)
+   {
+     $this->username = $username;
+     $this->password = $password;
+     $this->sign     = $sign;
+   }
+
   public function send_sms($mobile,$content,$productid) {
     $url = "http://www.ztsms.cn/sendNSms.do";
-    $tkey = date('Ymdhis',time());
+    $tkey = date('YmdHis',time());
     $password = md5(md5($this->password).$tkey);
     $data = [
       'username' => $this->username,
       'password' => $password,
       'tkey' => $tkey,
       'mobile' => $mobile,
-      'content' => $content."【优卡科技】",
+      'content' => $content."【{$this->sign}】",
       'productid' => $productid,
       'xh' => ''
     ];
