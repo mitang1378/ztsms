@@ -1,0 +1,24 @@
+{
+    "name": "uka/zysms",
+    "description": "zhutong SMS yii2 extension",
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "2.0.7",
+    },
+    "require-dev": {
+      "linslin/yii2-curl": "*"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "MRfeng85",
+            "email": "83398365@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "uka\\ztsms\\": ""
+        }
+    },
+}
