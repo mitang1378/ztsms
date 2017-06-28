@@ -1,5 +1,5 @@
 <?php
-namespace uka\ztsms;
+namespace mitang1378\ztsms;
 
 use linslin\yii2\curl;
 
