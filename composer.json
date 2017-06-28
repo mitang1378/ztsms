@@ -19,7 +19,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "mitang1378\\ztsms\\": ""
+            "mitang1378\\ztsms\\": "src"
         }
     }
 }
